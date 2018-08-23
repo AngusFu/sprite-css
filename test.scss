@@ -1,0 +1,38 @@
+.sprite {
+  // size: [200, 200]
+  width: 200;
+  height: 200;
+  // pos: [200, 200]
+  left: 200;
+  top: 200;
+
+  // npm:css-transform-to-mat4 => transformMatrix
+  // SEE https://github.com/Jam3/css-transform-to-mat4
+  transform: matrix3d(1,0,0,1,0,0);
+
+  border-radius: 20;
+  box-sizing: border-box;
+  // border: { width, color, style 
+  // npm:postcss-value-spread
+  border: 1px solid red;
+
+  padding: 1 1 2 2;
+  margin: 1 1 2 2;
+
+  z-index: 0;
+  opacity: 1;
+
+  flex: 1;
+  order: 0;
+  align-self: 'flex-start';
+
+  // bgcolor
+  background: red;
+
+  stroke-dashoffset: 2;
+
+  filter: blur(20);
+}
+
+// css-property-parser
+// https://www.npmjs.com/package/css-property-parser
