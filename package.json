@@ -18,11 +18,14 @@
   "homepage": "https://github.com/AngusFu/sprite-css#readme",
   "dependencies": {
     "css-value": "^0.0.1",
+    "dumper.js": "^1.1.1",
+    "jest": "^23.5.0",
     "lodash": "^4.17.10",
     "postcss": "^7.0.2",
     "postcss-reduce-transforms": "^4.0.0",
     "postcss-safe-parser": "^4.0.1",
     "postcss-value-parser": "^3.3.0",
+    "pretty-error": "^2.1.1",
     "sprite-math": "^1.0.4"
   }
 }
