@@ -155,6 +155,16 @@ result: {
 
 **TODO: font 缩写**
 
+### offset-*
+
+| CSS property name              | sprite.js attr name |
+| ------------------------------ | ------------------- |
+| `offset-path`                  | `offsetPath`        |
+| `offset-distance`              | `offsetDistance`    |
+| `offset-rotate`                | `offsetRotate`      |
+
+[参考链接](http://spritejs.org/#/zh-cn/doc/attribute?id=offsetdistance)
+
 ### TO BE CONTINUED
 
 参考 [spritejs/sprite-core/blob/master/src/index.d.ts](https://github.com/spritejs/sprite-core/blob/master/src/index.d.ts)
