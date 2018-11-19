@@ -4,14 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "npx standard ./lib/**/*.js",
+    "test": "npx jest --coverage"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AngusFu/sprite-css.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "wemlion <angusfu1126@qq.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/AngusFu/sprite-css/issues"
   },
@@ -19,8 +20,6 @@
   "dependencies": {
     "css-box-shadow": "^1.0.0-3",
     "css-value": "^0.0.1",
-    "dumper.js": "^1.1.1",
-    "jest": "^23.5.0",
     "lodash": "^4.17.10",
     "postcss": "^7.0.2",
     "postcss-discard-comments": "^4.0.0",
@@ -31,5 +30,8 @@
     "postcss-value-parser": "^3.3.0",
     "pretty-error": "^2.1.1",
     "sprite-math": "^1.0.4"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
   }
 }
