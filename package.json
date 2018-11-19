@@ -1,8 +1,8 @@
 {
   "name": "sprite-css",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "PostCSS parser for spritejs",
+  "main": "lib/index.js",
   "scripts": {
     "lint": "npx standard ./lib/**/*.js",
     "test": "npx jest --coverage"
